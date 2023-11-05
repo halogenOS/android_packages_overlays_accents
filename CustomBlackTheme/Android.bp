@@ -14,7 +14,8 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "CustomBlackBlueAccent",
+    name: "CustomBlackTheme",
     sdk_version: "current",
     product_specific: true,
+    theme: "CustomBlackTheme",
 }
