@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (c) 2018, The LineageOS Project
+    Copyright (C) 2023, The halogenOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -14,12 +14,21 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<resources>
-    <color name="accent_device_default_700">#4182EF</color>
-    <color name="accent_device_default_dark">#4182EF</color>
-    <color name="accent_device_default_light">#4182EF</color>
-    <color name="material_deep_teal_200">#4182EF</color>
-    <color name="material_deep_teal_500">#4182EF</color>
-    <color name="notification_icon_bg_color">#4182EF</color>
-    <color name="system_notification_accent_color">#4182EF</color>
-</resources>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="custom.theme.blackblue"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <overlay
+        android:targetPackage="android"
+        android:priority="900" />
+
+    <application
+        android:hasCode="false"
+        android:label="@string/accent_blue">
+
+        <meta-data
+            android:name="custom_berry_accent_preview"
+            android:value="#4182EF" />
+    </application>
+</manifest>
