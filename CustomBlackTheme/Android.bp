@@ -17,5 +17,6 @@ runtime_resource_overlay {
     name: "CustomBlackTheme",
     sdk_version: "current",
     product_specific: true,
+    aaptflags: ["--keep-raw-values"],
     theme: "CustomBlackTheme",
 }

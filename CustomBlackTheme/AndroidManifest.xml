@@ -17,13 +17,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="custom.theme.black">
 
-    <overlay
-        android:category="android.theme.customization.theme_style"
-        android:targetPackage="android"
-        android:priority="969" />
-
     <application
         android:hasCode="false"
-        android:label="@string/black_theme">
-    </application>
+        android:label="@string/black_theme" />
+
+    <overlay
+        android:targetPackage="android"
+        android:resourcesMap="@xml/overlays" />
+
 </manifest>

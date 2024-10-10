@@ -1,116 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright (C) 2023 The halogenOS Project
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Copyright (C) 2024 The halogenOS Project
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-        http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
 <resources>
-
-    <!-- Lightest shade of the neutral color used by the system. White.
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_0">#ffffff</color>
-    <!-- Shade of the neutral system color at 99% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_10">#FCFCFF</color>
-    <!-- Shade of the neutral system color at 95% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_50">#F0F0F3</color>
-    <!-- Shade of the neutral system color at 90% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_100">#E1E3E5</color>
-    <!-- Shade of the neutral system color at 80% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_200">#C5C7C9</color>
-    <!-- Shade of the neutral system color at 70% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_300">#AAABAE</color>
-    <!-- Shade of the neutral system color at 60% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_400">#8F9193</color>
-    <!-- Shade of the neutral system color at 49% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_500">#747679</color>
-    <!-- Shade of the neutral system color at 40% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_600">#5C5F61</color>
-    <!-- Shade of the neutral system color at 30% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_700">#454749</color>
-    <!-- Shade of the neutral system color at 20% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_800">#2E3133</color>
-    <!-- Shade of the neutral system color at 10% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_900">#191C1E</color>
-    <!-- Darkest shade of the neutral color used by the system. Black.
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral1_1000">#000000</color>
-
-    <!-- Lightest shade of the secondary neutral color used by the system. White.
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_0">#ffffff</color>
-    <!-- Shade of the secondary neutral system color at 99% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_10">#F9FCFF</color>
-    <!-- Shade of the secondary neutral system color at 95% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_50">#EBF1F8</color>
-    <!-- Shade of the secondary neutral system color at 90% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_100">#DCE3E9</color>
-    <!-- Shade of the secondary neutral system color at 80% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_200">#C0C7CD</color>
-    <!-- Shade of the secondary neutral system color at 70% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_300">#A5ACB2</color>
-    <!-- Shade of the secondary neutral system color at 60% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_400">#8A9297</color>
-    <!-- Shade of the secondary neutral system color at 49% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_500">#70777C</color>
-    <!-- Shade of the secondary neutral system color at 40% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_600">#585F65</color>
-    <!-- Shade of the secondary neutral system color at 30% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_700">#40484D</color>
-    <!-- Shade of the secondary neutral system color at 20% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_800">#2A3136</color>
-    <!-- Shade of the secondary neutral system color at 10% perceptual luminance (L* in L*a*b* color space).
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_900">#161C20</color>
-    <!-- Darkest shade of the secondary neutral color used by the system. Black.
-         This value can be overlaid at runtime by OverlayManager RROs. -->
-    <color name="system_neutral2_1000">#000000</color>
-
-    <color name="primary_device_default_dark">#000000</color>
-    <color name="primary_device_default_settings">#000000</color>
-    <color name="primary_dark_device_default_dark">@color/primary_device_default_dark</color>
-    <color name="primary_dark_device_default_settings">@color/primary_device_default_dark</color>
-    <color name="navigation_bar_divider_device_default_settings">#1f000000</color>
+    <color name="primary_device_default_dark">@android:color/black</color>
+    <color name="primary_device_default_settings">@android:color/black</color>
 
     <!-- Background colors -->
-    <color name="background_device_default_dark">#000000</color>
-    <color name="background_floating_device_default_dark">@color/background_device_default_dark</color>
+    <color name="background_device_default_dark">@android:color/black</color>
 
     <!-- Surface colors -->
-    <color name="surface_header_dark">@color/system_neutral1_900</color>
-    <color name="surface_variant_dark">@color/system_neutral1_900</color>
-    <color name="surface_dark">@color/system_neutral1_900</color>
+    <color name="surface_header_dark">@android:color/system_neutral1_800</color>
+    <color name="surface_variant_dark">@android:color/system_neutral1_700</color>
+    <color name="surface_dark">@android:color/system_neutral1_900</color>
 
-    <color name="list_divider_color_dark">@color/system_neutral1_800</color>
+    <color name="list_divider_color_dark">@android:color/system_neutral1_800</color>
 
+    <color name="system_accent1_900">#000000</color>
+    <color name="system_accent2_900">#000000</color>
+    <color name="system_accent3_900">#000000</color>
+    <color name="system_neutral1_900">#000000</color>
+    <color name="system_neutral2_900">#000000</color>
+
+    <color name="system_background_dark">#000000</color>
+    <color name="system_surface_dark">#000000</color>
+    <color name="system_surface_container_lowest_dark">#000000</color>
+    <color name="system_surface_dim_dark">#000000</color>
 </resources>

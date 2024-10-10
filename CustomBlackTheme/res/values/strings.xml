@@ -15,5 +15,5 @@
     limitations under the License.
 -->
 <resources>
-    <string name="black_theme">Black Theme</string>
+    <string name="black_theme" mapped="false">Black Theme</string>
 </resources>

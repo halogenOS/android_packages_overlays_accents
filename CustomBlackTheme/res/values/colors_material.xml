@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Copyright (C) 2024 The halogenOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="background_material_dark">@android:color/black</color>
+    <color name="background_floating_material_dark">@color/material_grey_900</color>
+
+    <color name="primary_material_dark">@android:color/black</color>
+    <color name="primary_material_settings">@color/material_blue_grey_900</color>
+    <color name="primary_dark_material_dark">@android:color/black</color>
+    <color name="primary_dark_material_settings">@color/material_blue_grey_950</color>
+
+    <color name="secondary_material_settings">@color/material_blue_grey_950</color>
+    <color name="tertiary_material_settings">@color/material_blue_grey_800</color>
+
+    <color name="button_material_dark">@color/material_grey_800</color>
+    <color name="switch_thumb_normal_material_dark">#b0b0b0</color>
+    <color name="switch_thumb_disabled_material_dark">#5a5a5a</color>
+
+    <item name="disabled_alpha_material_dark" format="float" type="dimen">0.28</item>
+    <item name="primary_content_alpha_material_dark" format="float" type="dimen">1</item>
+    <item name="secondary_content_alpha_material_dark" format="float" type="dimen">.68</item>
+
+    <!-- Autofill colors -->
+    <color name="autofill_background_material_dark">@color/material_blue_grey_950</color>
+
+    <!-- List divider opacity -->
+    <color name="list_divider_opacity_material">#1e000000</color>
+
+    <color name="material_grey_900">#212121</color>
+    <color name="material_grey_850">#303030</color>
+    <color name="material_grey_800">#424242</color>
+    <color name="material_grey_600">#757575</color>
+    <color name="material_grey_300">#e0e0e0</color>
+    <color name="material_grey_200">#eeeeee</color>
+    <color name="material_grey_100">#f5f5f5</color>
+    <color name="material_grey_50">#fafafa</color>
+
+    <color name="material_blue_grey_200">#b0bec5</color>
+    <color name="material_blue_grey_700">#455a64</color>
+    <color name="material_blue_grey_800">#37474f</color>
+    <color name="material_blue_grey_900">#263238</color>
+    <color name="material_blue_grey_950">#21272b</color>
+</resources>
