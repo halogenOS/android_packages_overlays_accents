@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2026 The halogenOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Palette shade tones: darken from shade 500 downward toward pure black -->
+    <integer-array name="config_paletteShadeTones">
+        <item>100</item>  <!-- shade 0: unchanged -->
+        <item>99</item>   <!-- shade 10: unchanged -->
+        <item>95</item>   <!-- shade 50: unchanged -->
+        <item>90</item>   <!-- shade 100: unchanged -->
+        <item>80</item>   <!-- shade 200: unchanged -->
+        <item>70</item>   <!-- shade 300: unchanged -->
+        <item>60</item>   <!-- shade 400: unchanged -->
+        <item>45</item>   <!-- shade 500: was 50 -->
+        <item>34</item>   <!-- shade 600: was 40 -->
+        <item>22</item>   <!-- shade 700: was 30 -->
+        <item>10</item>   <!-- shade 800: was 20 -->
+        <item>0</item>    <!-- shade 900: was 10, now pure black -->
+        <item>0</item>    <!-- shade 1000: unchanged -->
+    </integer-array>
+
+    <!-- Dark surface tones: push surfaces toward black -->
+    <integer name="config_darkToneSurface">0</integer>
+    <integer name="config_darkToneSurfaceDim">0</integer>
+    <integer name="config_darkToneSurfaceBright">10</integer>
+    <integer name="config_darkToneSurfaceContainerLowest">0</integer>
+    <integer name="config_darkToneSurfaceContainerLow">2</integer>
+    <integer name="config_darkToneSurfaceContainer">4</integer>
+    <integer name="config_darkToneSurfaceContainerHigh">6</integer>
+    <integer name="config_darkToneSurfaceContainerHighest">8</integer>
+</resources>

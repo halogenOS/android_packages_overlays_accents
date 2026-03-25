@@ -23,7 +23,6 @@
 
     <overlay
         android:targetPackage="android"
-        android:category="android.theme.customization.system_palette"
         android:resourcesMap="@xml/overlays" />
 
 </manifest>

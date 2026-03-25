@@ -3,19 +3,6 @@
   <item target="color/primary_device_default_dark" value="@color/primary_device_default_dark" />
   <item target="color/primary_device_default_settings" value="@color/primary_device_default_settings" />
   <item target="color/background_device_default_dark" value="@color/background_device_default_dark" />
-  <item target="color/surface_header_dark" value="@color/surface_header_dark" />
-  <item target="color/surface_variant_dark" value="@color/surface_variant_dark" />
-  <item target="color/surface_dark" value="@color/surface_dark" />
-  <item target="color/list_divider_color_dark" value="@color/list_divider_color_dark" />
-  <item target="color/system_accent1_900" value="@color/system_accent1_900" />
-  <item target="color/system_accent2_900" value="@color/system_accent2_900" />
-  <item target="color/system_accent3_900" value="@color/system_accent3_900" />
-  <item target="color/system_neutral1_900" value="@color/system_neutral1_900" />
-  <item target="color/system_neutral2_900" value="@color/system_neutral2_900" />
-  <item target="color/system_background_dark" value="@color/system_background_dark" />
-  <item target="color/system_surface_dark" value="@color/system_surface_dark" />
-  <item target="color/system_surface_container_lowest_dark" value="@color/system_surface_container_lowest_dark" />
-  <item target="color/system_surface_dim_dark" value="@color/system_surface_dim_dark" />
   <item target="color/background_material_dark" value="@color/background_material_dark" />
   <item target="color/background_floating_material_dark" value="@color/background_floating_material_dark" />
   <item target="color/primary_material_dark" value="@color/primary_material_dark" />
@@ -45,4 +32,14 @@
   <item target="color/material_blue_grey_800" value="@color/material_blue_grey_800" />
   <item target="color/material_blue_grey_900" value="@color/material_blue_grey_900" />
   <item target="color/material_blue_grey_950" value="@color/material_blue_grey_950" />
+  <!-- Tone configuration for dynamic color generation -->
+  <item target="array/config_paletteShadeTones" value="@array/config_paletteShadeTones" />
+  <item target="integer/config_darkToneSurface" value="@integer/config_darkToneSurface" />
+  <item target="integer/config_darkToneSurfaceDim" value="@integer/config_darkToneSurfaceDim" />
+  <item target="integer/config_darkToneSurfaceBright" value="@integer/config_darkToneSurfaceBright" />
+  <item target="integer/config_darkToneSurfaceContainerLowest" value="@integer/config_darkToneSurfaceContainerLowest" />
+  <item target="integer/config_darkToneSurfaceContainerLow" value="@integer/config_darkToneSurfaceContainerLow" />
+  <item target="integer/config_darkToneSurfaceContainer" value="@integer/config_darkToneSurfaceContainer" />
+  <item target="integer/config_darkToneSurfaceContainerHigh" value="@integer/config_darkToneSurfaceContainerHigh" />
+  <item target="integer/config_darkToneSurfaceContainerHighest" value="@integer/config_darkToneSurfaceContainerHighest" />
 </overlay>
